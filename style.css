@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background: #555;
+	height: 150px;
+	position: relative;
+}
+
+#logo{
+	width: 130px;
+	height: 130px;
+	background: #000;
+	position: relative;
+	top: 10px;
+	left: 50px;
+}
+
+header h1{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 40px;
+}
+
+nav{
+	background: #444;
+	height: 50px;
+	text-align: center;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+}
+
+nav a{
+	color: #fff;
+	font-size: 26px;
+	text-decoration: none;
+	margin: 0 10px;
+	line-height: 50px;
+	transition: 0.8s;
+}
+
+nav a:hover{
+	color: #fc4a4a;
+}
+
+#parallax{
+	position: relative;
+	height: 80vh;
+	background-image: url("e0888b2d87ea43bac1828e0294eca322.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+body{
+	height: 3000px;
+}
+
+#parallax div{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+#parallax h1{
+	color: #fff;
+	font-size: 70px;
+}
+
+#parallax h2{
+	color: #fff;
+	font-size: 50px;
+}
+
+#section1{
+	background: #888;
+}
+
+section{
+	min-height: 400px;
+	padding: 50px 0;
+}
+
+section h1{
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+.img_left img{
+	width: 50%;
+	float: left;
+	margin-right: 30px;
+}
+
+.img_left p, .img_right p{
+	font-size: 18px;
+	text-align: justify;
+}
+
+.img_right img{
+	float: right;
+	width: 50%;
+	margin-left: 30px;
+}
+
+
+.clear{
+	 clear: both;
+	 margin-bottom: 30px;
+}
+
+footer{
+  background:#333;
+  height: 300px;
+position: relative;
+
+}
+
+footer div{
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+color: #fff;
+
+}
